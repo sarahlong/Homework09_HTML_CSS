@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Latest compiled and minified Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+<!-- My css -->
+<link rel="stylesheet" href="my_css.css" />
+
+<nav class="navbar navbar-inverse navbar-expand{-sm|-md|-lg|-xl}">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="landing.html">Latitude and Weather</a>
+    </div>
+    
+    <ul class="nav navbar-nav navbar-right">
+      
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="plot1.html">Plot 1</a></li>
+          <li><a href="plot2.html">Plot 2</a></li>
+          <li><a href="plot3.html">Plot 3</a></li>
+          <li><a href="plot4.html">Plot 4</a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Bootstrap Navbar Dropdown Code
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    
+      <li><a href="comparisons.html">Comparisons</a></li>
+      <li><a href="data.html">Data</a></li>
+    
+    </ul>
+  
+  </div>
+</nav>
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Landing Page</title>
+</head>
+
+<body>
+  <h1>Explanation of the project</h1>
+  The purpose of this project is to analyze weather patterns in locations at varying distances from the equator.  To accomplish this analysis, I first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.  
+
+  After assembling the dataset, I used Matplotlib to plot weather, latitude, and other variables, including: temperature, cloudiness, wind speed, and humidity.  The site provides the source data and visualiztions created as part of the analysis, as well as explanations and descriptions of any trends and correlations discovered.
+
+  <h2>Links to each visualization page</h2>
+
+    <li><a href="plot1.html">Plot 1</a></li>
+    <li><a href="plot2.html">Plot 2</a></li>
+    <li><a href="plot3.html">Plot 3</a></li>
+    <li><a href="plot4.html">Plot 4</a></li>
+
+  <script src="static/js/app.js"></script>
+</body>
+
+</html>
